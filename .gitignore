@@ -1,21 +1,12 @@
-.classpath
-!/.project
-.project
-.settings
-target/
-.idea/
-.DS_Store
-.idea
-overlays/
-
 *.log
 *.temp
 *.xls
 /out/
 /gen/
 *.class
-*.jar
 /webapp/src/main/resources/conf/config.xml
+
+*.jar
 
 #tomcat日志以及临时缓存
 *tomcat*/logs/
@@ -27,7 +18,9 @@ overlays/
 #工程相关
 /.idea/
 *.iml
-/.idea.zip
+#/.idea.zip
+target/
+overlays/
 WEB-INF/lib/
 WEB-INF/classes/
 /logs/
